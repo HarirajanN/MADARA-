@@ -1,0 +1,134 @@
+:root{
+    --bs-fb: #0d6efd;
+    --bs-insta:#d62976 ;
+    --bs-twit :#00acee;
+    --bs-link:#0A66C2;
+    --bs-bg:#2a29290a;
+}
+/*------------------------------------------Main-------------------------------*/
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav .start{
+    display: flex;
+    
+}
+.nav #nav .end ul li a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+.nav {
+height: 50px;
+border-bottom: solid 1px rgba(0, 0, 0, 0.19);
+align-items: center;
+}
+
+#theme{
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#theme li {
+    border: solid 1px black;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+#theme1{
+ 
+ padding: 5px 15px;
+    font-weight: 600;
+}
+#menu{
+   z-index: 10;
+}
+#menu-icon{
+    display: none;
+    font-size: 20px;
+}
+.menu-list{
+    position: absolute;
+    margin-top: 225px;
+  
+
+}
+.menu-list li{
+    background-color: white;
+    padding: 5px 25px;
+    border: solid 1px rgba(0, 0, 0, 0.188);
+    font-weight: 900;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav{
+    background-color: white;
+}
+.blog{
+    border: solid 1px rgba(0, 0, 0, 0.184);
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+#slider{
+    border: solid 1px rgba(0, 0, 0, 0.176);
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-fills ul{
+ width: 100vw;
+}
+.capacha{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    height: 200px;
+}
+.social-icon .btn{
+    width: 23%;
+    
+}
+.class{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+    background-color: var(--bs-bg);
+    border:solid rgba(0, 0, 0, 0.179) 1px;
+}
+.learn-tab{
+    margin: 10px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+.logo:hover{
+    color: black;
+}
+#check{
+    display: none;
+}
+/*--------------------------------------------main-----------------------------*/
+/*/------------------------------------------ Media-------------------------------*/
+@media screen and (max-width:500px) {
+    #nav .end{
+        display: none;
+    }
+    h3{
+        margin-top: 5px;
+    }
+    #menu-icon{
+        display: block;
+    }
+}
+/*/------------------------------------------ Media-------------------------------*/
